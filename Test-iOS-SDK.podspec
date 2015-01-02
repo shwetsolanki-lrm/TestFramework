@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
   s.author   = { 'Shwet Solanki' => 'contact@some.com' }
   s.social_media_url = "https://twitter.com/someinc"
   s.source       = { 
-                    :http => "https://www.dropbox.com/s/rug6h4tnef5myi6/Pyze.framework.zip?dl=1"
+                    :http => "https://www.dropbox.com/s/fqu5hfb7ydy7kb6/TestFramework.framework.zip?dl=1"
                     }
   s.platform = :ios, 6.0
   s.requires_arc = true
 
-  s.ios.vendored_frameworks = 'TestFramework.framework'
+  s.ios.vendored_frameworks = 'TestFramework.framework' 
 end
