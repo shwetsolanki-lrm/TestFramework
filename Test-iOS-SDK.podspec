@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author   = { 'Shwet Solanki' => 'contact@some.com' }
   s.social_media_url = "https://twitter.com/someinc"
   s.source       = { 
-                    :git => "https://github.com/shwetsolanki-lrm/TestFramework.git"
+                    :git => "https://github.com/shwetsolanki-lrm/TestFramework.git",
                     :tag => s.version.to_s
                     }
   s.platform = :ios, 6.0

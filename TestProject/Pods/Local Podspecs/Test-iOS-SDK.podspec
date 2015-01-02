@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
   s.author   = { 'Shwet Solanki' => 'contact@some.com' }
   s.social_media_url = "https://twitter.com/someinc"
   s.source       = { 
-                    :http => "https://www.dropbox.com/sh/tgkuloknokr77w7/AAC0A1nJHF6Zw68GgFExlzNQa?dl=1"
+                    :git => "https://github.com/shwetsolanki-lrm/TestFramework.git"
+                    :tag => s.version.to_s
                     }
   s.platform = :ios, 6.0
   s.requires_arc = true
