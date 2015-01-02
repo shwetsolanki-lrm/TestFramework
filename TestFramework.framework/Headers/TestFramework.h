@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TestFiles.h"
 
 //! Project version number for TestFramework.
 FOUNDATION_EXPORT double TestFrameworkVersionNumber;

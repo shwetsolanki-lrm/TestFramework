@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/TestFiles.h</key>
+		<data>
+		9LznK1ua8YlISq1pGWOeAhT31Po=
+		</data>
 		<key>Headers/TestFramework.h</key>
 		<data>
-		phm0IIRaw5/Ee4mdwsjBS2WmGyk=
+		6snxCcrlh7RON5ZLgu9mX9jLcH4=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -19,9 +23,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/TestFiles.h</key>
+		<data>
+		9LznK1ua8YlISq1pGWOeAhT31Po=
+		</data>
 		<key>Headers/TestFramework.h</key>
 		<data>
-		phm0IIRaw5/Ee4mdwsjBS2WmGyk=
+		6snxCcrlh7RON5ZLgu9mX9jLcH4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>

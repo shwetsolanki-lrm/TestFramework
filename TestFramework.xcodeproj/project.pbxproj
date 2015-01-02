@@ -24,6 +24,8 @@
 		EB995AAC1A56697000CDD168 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = EB995AAB1A56697000CDD168 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB995AB21A56697000CDD168 /* TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB995AA61A56697000CDD168 /* TestFramework.framework */; };
 		EB995AB91A56697000CDD168 /* TestFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB995AB81A56697000CDD168 /* TestFrameworkTests.m */; };
+		EB995AFD1A56792B00CDD168 /* TestFiles.h in Headers */ = {isa = PBXBuildFile; fileRef = EB995AFB1A56792B00CDD168 /* TestFiles.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB995AFE1A56792B00CDD168 /* TestFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = EB995AFC1A56792B00CDD168 /* TestFiles.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		EB995AB11A56697000CDD168 /* TestFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB995AB71A56697000CDD168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB995AB81A56697000CDD168 /* TestFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFrameworkTests.m; sourceTree = "<group>"; };
+		EB995AFB1A56792B00CDD168 /* TestFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFiles.h; sourceTree = "<group>"; };
+		EB995AFC1A56792B00CDD168 /* TestFiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFiles.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				EB995AAB1A56697000CDD168 /* TestFramework.h */,
+				EB995AFB1A56792B00CDD168 /* TestFiles.h */,
+				EB995AFC1A56792B00CDD168 /* TestFiles.m */,
 				EB995AA91A56697000CDD168 /* Supporting Files */,
 			);
 			path = TestFramework;
@@ -123,6 +129,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB995AFD1A56792B00CDD168 /* TestFiles.h in Headers */,
 				EB995AAC1A56697000CDD168 /* TestFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB995AFE1A56792B00CDD168 /* TestFiles.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +450,7 @@
 				EB995ABE1A56697000CDD168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB995ABF1A56697000CDD168 /* Build configuration list for PBXNativeTarget "TestFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +459,7 @@
 				EB995AC11A56697000CDD168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB995AC31A56698100CDD168 /* Build configuration list for PBXAggregateTarget "TestFramework-Universal" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +468,7 @@
 				EB995AC51A56698100CDD168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
