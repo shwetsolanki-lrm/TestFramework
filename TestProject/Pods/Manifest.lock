@@ -1,0 +1,14 @@
+PODS:
+  - Test-iOS-SDK (1.0.0)
+
+DEPENDENCIES:
+  - Test-iOS-SDK (from `https://raw.githubusercontent.com/shwetsolanki-lrm/TestFramework/master/Test-iOS-SDK.podspec`)
+
+EXTERNAL SOURCES:
+  Test-iOS-SDK:
+    :podspec: https://raw.githubusercontent.com/shwetsolanki-lrm/TestFramework/master/Test-iOS-SDK.podspec
+
+SPEC CHECKSUMS:
+  Test-iOS-SDK: 583dd68dad120bfdc5dd5e935f763b61570b1bbb
+
+COCOAPODS: 0.35.0
